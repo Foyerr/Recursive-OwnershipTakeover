@@ -1,4 +1,4 @@
-# Ensure-DeepNTFSPerms.ps1
+# Recursive-OwnershipTakeover
 
 This PowerShell script recursively enforces NTFS ownership and FullControl permissions for a specified group, as deep as access allows. It takes ownership of files and directories where applicable and appends a log of ownership changes to a CSV file.
 
