@@ -22,4 +22,4 @@ This PowerShell script recursively enforces NTFS ownership and FullControl permi
 ## Example Usage
 
 ```powershell
-.\Ensure-DeepNTFSPerms.ps1 -RootPath "C:\Data" -Group "BUILTIN\Administrators" -logPath "C:\Logs\OwnershipChanges.csv"
+.\Recursive-OwnershipTakeover.ps1 -RootPath "C:\Data" -Group "BUILTIN\Administrators" -logPath "C:\Logs\OwnershipChanges.csv"
